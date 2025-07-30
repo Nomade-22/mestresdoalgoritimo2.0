@@ -5,86 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mestres do Algoritmo 2.0</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+    * {
       margin: 0;
       padding: 0;
-      color: #222;
+      box-sizing: border-box;
     }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+      line-height: 1.6;
+    }
+
     .container {
       max-width: 700px;
-      margin: 50px auto;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      border-radius: 10px;
+      margin: 60px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     }
+
     h1 {
-      color: #1a73e8;
-      font-size: 28px;
+      font-size: 26px;
+      color: #1f2937;
       margin-bottom: 20px;
       text-align: center;
     }
+
     p {
       font-size: 17px;
-      line-height: 1.6;
+      margin-bottom: 18px;
     }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      list-style: '✅ ';
+    }
+
     .testimonial {
-      background: #eef6ff;
-      border-left: 4px solid #1a73e8;
-      padding: 15px;
-      margin: 30px 0;
+      background: #f0fdf4;
+      padding: 16px;
+      border-left: 4px solid #10b981;
       font-style: italic;
+      color: #065f46;
+      margin: 25px 0;
+      border-radius: 6px;
     }
-    .button {
+
+    .cta-button {
       display: block;
       width: 100%;
       text-align: center;
-      background: #28a745;
+      background-color: #10b981;
       color: white;
-      padding: 15px;
+      padding: 16px;
+      border: none;
+      border-radius: 8px;
       font-size: 18px;
+      cursor: pointer;
       text-decoration: none;
-      border-radius: 5px;
       margin-top: 30px;
-      transition: background 0.3s;
+      transition: background 0.3s ease;
     }
-    .button:hover {
-      background: #218838;
+
+    .cta-button:hover {
+      background-color: #059669;
     }
+
     footer {
       text-align: center;
-      font-size: 14px;
-      color: #777;
+      font-size: 13px;
+      color: #6b7280;
       margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+        margin: 30px 16px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>🚀 Descubra como ganhar dinheiro com o YouTube sem aparecer nos vídeos</h1>
-    <p>
-      Você já tentou criar conteúdo para o YouTube, mas não conseguiu resultados?
-      A verdade é que milhares de pessoas estão deixando dinheiro na mesa porque não entendem o algoritmo do YouTube.
-    </p>
-    <p>
-      O curso <strong>Mestres do Algoritmo 2.0</strong> mostra, passo a passo, como criar e escalar um canal que gera renda passiva real — mesmo que você esteja começando do zero e sem aparecer.
-    </p>
+    <h1>🚀 Aprenda a gerar renda passiva com o YouTube sem aparecer nos vídeos</h1>
+
+    <p>Você está cansado(a) de tentar crescer no YouTube e não ver resultados?</p>
+
+    <p>O curso <strong>Mestres do Algoritmo 2.0</strong> ensina, passo a passo, como construir canais que geram receita recorrente usando estratégias reais, sem precisar aparecer nem investir pesado.</p>
+
     <ul>
-      <li>✅ Você não precisa mostrar o rosto</li>
-      <li>✅ Pode começar do zero com seu celular</li>
-      <li>✅ Método simples e comprovado</li>
+      <li>Funciona para iniciantes</li>
+      <li>Você pode começar com o celular</li>
+      <li>100% digital e aplicável hoje mesmo</li>
     </ul>
+
     <div class="testimonial">
-      “Eu achava que era tarde demais para começar no YouTube, mas com esse curso consegui criar um canal e em 25 dias já estava ganhando. Gratidão total!”  
-      <br>— Carlos, aluno do curso
+      “Comecei do zero e com o método do curso consegui monetizar meu canal em menos de 1 mês!” — Ana L.
     </div>
-    <a class="button" href="https://pay.kiwify.com.br/Vi1Zg5m?afid=hemUw4ZM" target="_blank">
+
+    <a class="cta-button" href="https://pay.kiwify.com.br/Vi1Zg5m?afid=hemUw4ZM" target="_blank">
       👉 Quero acessar o treinamento agora
     </a>
+
     <footer>
-      Página de pré-venda independente | Você será redirecionado para a plataforma oficial da Kiwify
+      Página de pré-venda independente | Redirecionamento seguro para Kiwify
     </footer>
   </div>
 </body>
